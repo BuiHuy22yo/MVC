@@ -23,6 +23,7 @@ class Controller
 
         $content_for_layout = ob_get_clean();
         if ($this->layout == false) {
+
             $content_for_layout;
         } else {
             require(ROOT . "Views/Layouts/" . $this->layout . '.php');
