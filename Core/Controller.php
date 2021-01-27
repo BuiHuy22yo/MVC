@@ -11,7 +11,7 @@ class Controller
     {
         $this->vars = array_merge($this->vars, $d);
     }
-
+    
     function render($filename)
     {
         extract($this->vars);
@@ -20,7 +20,7 @@ class Controller
         $view = str_replace('MVC\s\\', '', $view);
         $view = ROOT . '/Views/' . $view . '/' . $filename . '.php';
         require($view);
-
+        
         $content_for_layout = ob_get_clean();
         if ($this->layout == false) {
 

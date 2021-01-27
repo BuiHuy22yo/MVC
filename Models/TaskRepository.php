@@ -6,7 +6,7 @@ use MVC\Models\TaskResourceModel;
 
 class TaskRepository
 {
-    protected $taskResourceModel;
+    private $taskResourceModel;
 
     public function __construct()
     {

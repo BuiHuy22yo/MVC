@@ -41,7 +41,6 @@ class TasksController extends Controller
         $task = new TaskModel();
 
         $d['tasks'] = $this->taskRepository->get($id);
-
         if (isset($_POST["title"])) {
             $task->setId($id);
             $task->setTitle($_POST["title"]);
