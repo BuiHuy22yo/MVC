@@ -32,6 +32,7 @@ class ResourceModel implements ResourceModelInterface
            array_push($placeName, ':' . $key);
            array_push($col, $key. ' = :' .$key);
        }
+
        $columnsUpdate = implode(', ', $col) ;
        $columnsInsert = implode(', ',array_keys($properties));
        $values = implode(', ' ,$placeName);
@@ -73,5 +74,3 @@ class ResourceModel implements ResourceModelInterface
          return $req->fetchAll();
     }
 }
-
-?>

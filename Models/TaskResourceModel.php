@@ -12,5 +12,3 @@ class TaskResourceModel extends ResourceModel
         parent::_init('tasks', 'id', new TaskModel);
     }
 }
-
-?>

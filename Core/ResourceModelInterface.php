@@ -8,5 +8,3 @@ interface ResourceModelInterface
     public function save($model);
     public function delete($model);
 }
-
-?>

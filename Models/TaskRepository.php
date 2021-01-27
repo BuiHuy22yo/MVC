@@ -38,5 +38,3 @@ class TaskRepository
         return $this->taskResourceModel->showAll($model);
     }
 }
-
-?>

@@ -63,5 +63,3 @@ class TaskModel extends Model
     }
 
 }
-
-?>
