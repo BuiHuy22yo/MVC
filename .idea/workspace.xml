@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c93ac342-66cb-49f3-8d9a-59a21e512379" name="Default" comment="" />
+    <list default="true" id="c93ac342-66cb-49f3-8d9a-59a21e512379" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Controller.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
@@ -22,6 +27,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1nKHcAd7jw3wYjklDfgojMhiE9J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -66,6 +72,7 @@
       <workItem from="1611496481278" duration="4717000" />
       <workItem from="1611538717180" duration="23967000" />
       <workItem from="1611630977613" duration="1340000" />
+      <workItem from="1617360902118" duration="33000" />
     </task>
     <servers />
   </component>
@@ -77,10 +84,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611672981774" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1611631007203">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1617360921302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1611631007203" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1617360921302" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
